@@ -1,0 +1,677 @@
+*{
+    margin: 0%;
+    padding: 0%; }
+
+body{    min-width: 750px;
+    min-height: 30%;
+    font-size: 100%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+
+} 
+#nave{
+    width: 7vh;
+    height: 7vh;
+    position: absolute;
+    z-index: 1;
+    right: 10vh;
+    
+}
+.header{width: 100%;height: 8vh;
+    min-width: 530px; 
+
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    display: inline-flex;
+    top: 0%;
+    left: 0%;
+    align-items: center;
+    float: left;
+    z-index: 300;
+
+}
+.logo{height:8vh;
+    width:9% ; }  
+
+.header .links{ height: 8vh;width: 70%; 
+    
+ }
+
+
+
+.header .search{width:21%; height: 8hv;
+    padding: 1vh;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-around;  
+    border-radius: 20px;
+    background-color: #fe6600;
+    top: 0%;
+    }
+
+ .logo img{
+     width: 75%;
+     height: 95%;
+     margin-top: 0%;
+ }       
+
+
+
+.links ul{width: 100%;
+    
+    height: 8vh;
+
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-evenly;
+}   
+
+.search img{
+    width: 13%;
+    height: 13%;}
+.search input{
+    width: 70%;
+    outline: none;
+    background-color: #fe6600;
+    border-style: none;
+    
+
+}
+
+.search input:focus, .search input::placeholder{
+    color: white;
+    border-style: none;
+}
+
+          
+a.linkum, a{
+
+    text-decoration: none;
+    color:rgb(248, 104, 1);
+    color:rgb(252, 127, 38);
+    padding-bottom: 2vh;                
+}
+a.linkum:hover{
+    color: rgb(84, 103, 113);
+    border-bottom:2px solid rgb(84, 103, 113);
+}
+a:hover{
+    color: rgb(84, 103, 113);
+}
+
+.info{padding-top: 4vh;
+
+}
+.info p{
+    font-size: 95%;
+    padding: 1vh;
+
+    text-align: center;
+}
+
+section.tela{
+    width: 100%;
+    display:block;
+    justify-content: center;
+}
+
+.tela img{  
+    height: 89vh;
+    min-width:70%;          
+    width: 100%;
+
+
+    }
+
+.pgdois{
+    width: 100%;
+    padding-top: 10vh;
+
+}
+.intdois{
+    display: block;
+    width: 100%;
+}
+.titint{
+    margin: 0vh 10vh 3vh 10vh ;
+}
+.titint p{
+    border-bottom:0.3vh solid #fe6600;
+    display: inline-flex;
+    font-size: 150%;
+    font-weight:600;
+
+               }
+
+.imgs{
+    padding-top: 3vh;
+    margin-left: 10vh;
+    align-items: center;
+    display: inline-flex;
+    width: 95%;
+    }
+
+.video{
+    width:45%;
+    height: 49.8vh;
+    
+}
+.video embed{
+    position: relative;
+    z-index: 20;
+    width: 100%;
+    height: 100%;
+}
+
+
+div.notas{
+    z-index: 20;
+    position: relative;
+    height: 150%;
+    width: 45%;
+}
+.notas p{
+    margin: 0vh 5vh;
+    font-size: 120%;
+    font-weight: bold;
+    line-height: 4vh;
+    text-align: justify;
+    color: #fe6600;
+}
+div.blockquote{
+    width: 100%;
+    margin-bottom: 11.5vh;
+
+}
+.blockquote blockquote{
+    color: #fe6600;
+    font-size: 200%;
+    padding: 6.10vh 10vh;
+
+}
+#alan{
+    float: right;
+
+}
+
+
+div.valores{
+    color: white;
+    width: 100%;
+    display: block;
+    padding-bottom: 16vh;
+    border-bottom: 0.7vh solid #fe6600;
+    background-image: url(space2.jpg);
+}
+.titvalores{ 
+    display: inline-flex;
+    padding: 10vh 10vh 3vh 10vh;
+}
+.titvalores p{
+    border-bottom: 0.3vh solid #fe6600;             
+    font-size: 150%;
+    font-weight:600;
+}
+#nave{
+    z-index: 1;
+    position: absolute;
+    float: right;
+    margin-top: 5vh;
+    width: 10vh;
+    height: 10vh;
+}
+#yodasabre{
+    z-index: 10;
+    float: right;
+    position: absolute;
+    margin-top: -5vh;
+    left: 38%;
+    width: 35vh;
+    height: auto;
+    transform: rotate(40deg);
+}
+#bb8{
+    z-index: 10;
+    float: left;
+    position: absolute;
+    left: 5%;
+    margin-top: 16vh;
+    width: 15vh;
+    height: auto;
+}
+#vader{
+    z-index: 10;
+    float: left;
+    position: absolute;
+    right:0%;
+    margin-top: -20%;
+    width: 37vh;
+    height: auto;
+}
+#r2d2{
+    z-index: 10;
+    float: left;
+    transform: rotate(30deg);
+    margin-top: 6%;
+    left: 78%;
+    position: absolute;
+    width: 20vh;
+    height: auto;
+}
+div.textcima{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding-bottom: 3vh;
+}
+div.textbaixo{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding-bottom: 3vh;
+}
+
+.textcima p{
+    color: #fe6600;
+    position: static;
+    z-index: 2;
+    width: 15%;
+    text-align: justify;
+    align-content: center;
+    
+
+}
+.textcima p::first-line{
+    text-align: center;
+    font-weight: bold;
+    line-height: 10vh;
+
+}
+
+.textbaixo p{
+    color: #fe6600;
+    position: relative;
+    z-index: 20;
+    width: 15%;
+    text-align: justify;
+
+    
+}
+.textbaixo p::first-line{
+    text-align: center;
+    font-weight: bold;
+    line-height: 10vh;
+    
+}
+
+
+.pgtres{
+    width: 100%;
+    border-bottom: 0.7vh solid #fe6600;
+    display: block;
+  
+}    
+.pgtres h1{
+    position: relative;
+    z-index: 20;
+    color: #fe6600;
+}
+div.tittres{
+    display: inline-flex;
+    padding:10vh 10vh 3vh 10vh ;
+    
+    font-size: 150%;
+    font-weight:600;
+    margin-bottom: 3vh;
+}     
+.tittres p{
+    border-bottom: 0.3vh solid #fe6600;
+}
+div.sertop, div.sertop, div.sertop{
+    width: 100%;
+} 
+div.sertop, div.sermeio, div.serbaixo{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    padding-bottom: 5vh;
+}
+div.dessites, .projmec{
+    
+    width: 40%;
+    padding-bottom: 5vh;
+
+}  
+.dessites h1, .projmec h1{
+    display: block;
+    width: 100%;
+    font-size: 120%;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 3vh;
+}
+.dessites img, .projmec img{
+    position: relative;
+    z-index: 20;
+    float: left;
+    width: 16%;
+}
+.dessites p, .projmec p{
+    text-shadow: 0.05vh 0.05vh 0.1vh #111111;
+    position: relative;
+    z-index: 20;
+    display: inline-flex;
+    width: 60%;
+    text-align: justify;
+    padding-left: 10%;
+    color: #fe6600;
+}
+div.alinhar{
+    align-items: center;}
+
+    a.kha{
+      
+        background-image: url(montkhaleb.png);
+    height: 28.4vh;
+    width: 28.4vh;
+    text-indent: -40px;/*com as palavras saindo da pág., ficam apenas as img como links
+    OBS.: HÁ OUTRA FORMA DE FAZER ISSO TAMBÉM*/
+    display: inline-block;
+    text-indent: -99929px;
+    background-position: 42vh 0vh;
+    border-radius: 200%;
+    
+    
+    }
+    a.kha:hover{
+        background-position:-12vh -32.85vh;
+    
+  }
+  a.testeteste{
+    padding: 100px;
+      background-image: url(luke.jpg);
+      background-size: 200px 200px;
+      display: inline-block;
+      
+  }
+  a.testeteste:hover{
+
+      background-image: url(luke2.jpg);
+      background-size: 220px 350px;
+     
+  }
+  .pgquatro{
+      padding-bottom: 6vh;
+      background-image: url(space2.jpg);
+  }
+  .titquatro{
+      display: inline-flex;
+    padding: 10vh 5vh 6vh 10vh;
+      
+  }
+
+  .titquatro p{
+      border-bottom:0.3vh solid #fe6600;
+      color: #fe6600;
+    
+    width: 100%;
+    font-size: 150%;
+    font-weight:600;
+  }
+  
+
+  div.teams{
+      margin: 0vh 10vh;
+      display: block;
+  }
+  div.teamcima, div.teammeio, div.teambaixo{
+      position: relative;
+      z-index: 20;
+      display: inline-flex;
+      width: 100%;
+      justify-content: space-evenly;
+  }
+  .cima1, .cima2, .cima3, .cima4{
+      display: inline-block;
+      width: 22%;
+      padding: 0%;
+  }
+  div.foto{
+      width: 100%;
+  }
+  
+  div.foto a{
+      text-indent: -9999px;
+    width: 30vh;
+    height: 30vh;
+    background-size:100% 100%;
+    display: inline-block;
+    border-radius: 50%;
+  }
+  
+  .teamcima .cima1 .foto a{
+    background-image: url(renata.png);
+  }
+  .teamcima .cima1 .foto a:hover{
+    background-image: url(babyyoda.jpg);
+  }
+  .teamcima .cima2 .foto a{
+    background-image: url(danielmoreiradiretorcomercial.png);
+  }
+  .teamcima .cima2 .foto a:hover{
+    background-image: url(obiwan.png);
+  }
+  .teamcima .cima3 .foto a{
+    background-image: url(samilycorreadiretoradeprojetosengmecanica.png);
+  }
+  .teamcima .cima3 .foto a:hover{
+    background-image: url(rey.png);}
+
+  .teamcima .cima4 .foto a{
+    background-image: url(gabrielrezende-VP.png);}
+    .teamcima .cima4 .foto a:hover{
+    background-image: url(luke2.png);}
+  
+.teammeio .cima1 .foto a{
+    background-image: url(ursulavelilagermarketing.png);
+    }
+.teammeio .cima1 .foto a:hover{
+    background-image: url(padme.png);}
+  
+.teammeio .cima2 .foto a{
+    background-image: url(khaleblisboagerfinanceiro.png);}    
+.teammeio .cima2 .foto a:hover{
+    background-image: url(kylo.png);}
+
+.teammeio .cima3 .foto a{
+    background-image: url(alejandraninagercomercial.png);
+    }
+.teammeio .cima3 .foto a:hover{
+    background-image: url(rosetico.png);
+    }
+.teammeio .cima4 .foto a{
+    background-image: url(mayra.png);
+    } 
+.teammeio .cima4 .foto a:hover{
+    background-image: url(ahsokatano.png);
+    } 
+.teambaixo .cima1 .foto a{
+    background-image: url(lucas.png);
+    }
+.teambaixo .cima1 .foto a:hover{
+    background-image: url(hansolo.png);
+    }
+.teambaixo .cima2 .foto a{
+    background-image: url(nome1.png);}  
+.teambaixo .cima2 .foto a:hover{
+    background-image: url(trooper.png);}    
+.teambaixo .cima3 .foto a{
+    background-image: url(nome2.png);
+    }
+.teambaixo .cima3 .foto a:hover{
+    background-image: url(darth.png);
+    }
+.teambaixo .cima4 .foto a{
+    background-image: url(evoneytavaresconsultor.png);} 
+.teambaixo .cima4 .foto a:hover{
+    background-image: url(c3po.png);} 
+
+div.legenda{
+    width: 100%;
+    display: inline-flex;
+    padding: 4vh 0vh;                   }
+
+div.legenda p{
+    color: rgb(248, 104, 1);
+    width: 70%;
+    text-align: center;}
+
+div.legenda a{
+    width: 30%;
+    text-align: left;
+}
+
+.pgseis{
+    border-top: 0.7vh solid #fe6600;
+    width: 100%;
+    display: block;
+    padding-bottom: 11.3vh;
+}
+.titseis{
+    width: 100%;
+    display: inline-flex;
+}
+.titseis p{
+    margin: 10vh 5vh 6vh 10vh;
+    font-size: 150%;
+    font-weight:600;
+    border-bottom: 0.3vh solid #fe6600;
+}
+div.caixas{
+    width: 90%;
+    margin: 3vh 10vh;
+    display:block;
+}
+div.caixascima, div.caixasbaixo{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+div.caixa1, div.caixa2{
+    padding: 3vh;
+    width: 40%;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+.imgproj{
+    width: 40%;
+}
+.imgproj img{
+    width: 100%;
+    height: 100%;
+}
+.textosproj{
+    width: 45%;
+}
+.textosproj p::first-line{
+    text-align: center;
+    font-size: 120%;
+    font-weight: bolder;
+}
+.textosproj p{
+    text-align: justify;
+}
+.textosproj a{
+    float: right;
+}
+div.sabermais{
+    margin: 2vh 0vh;
+    display: inline-flex;
+    padding: 0.5vh 1vh;
+    border: 0.3vh solid #fe6600;
+    background-color: #fe6600;
+    border-radius: 10vh;
+    float: right;
+}
+.sabermais a{
+    padding-bottom: 0vh;
+    color: white;
+}
+.sabermais a:hover{
+    color: black;
+}
+.pgcinco{
+    width: 100%;
+    display: block;
+    border-top: 0.7vh solid #fe6600;
+    border-bottom: 0.7vh solid #fe6600;
+}
+.titcinco{
+    width: 100%;
+    display: inline-flex;
+                                  
+}
+.titcinco p{
+    border-bottom: 0.3vh solid #fe6600;
+    margin: 10vh 5vh 6vh 10vh;
+    font-size: 150%;
+    font-weight:600;
+}
+.titcinco .facebook{
+    padding: 10vh 10vh 6vh 0vh;
+}
+.facebook a{
+    margin-right: 1vh;
+}
+.corcinza{
+    background-color:rgb(245, 245, 247); ;
+}
+div.boxes{
+    border-top: 0.05vh solid rgb(167, 167, 167);
+    border-bottom: 0.05vh none rgb(167, 167, 167);
+    display: inline-flex;
+    width: 90%;
+    margin:0vh 10vh 0vh 10vh; 
+    justify-content: space-evenly;
+
+}
+div.box{
+   padding-top: 3vh;
+   padding-bottom: 3vh;
+    width: 20%;line-height: 5vh;}
+
+.box p{
+    border-style: hidden;
+    font-size: 100%;
+    line-height: 2vh;
+    font-weight: 400;
+    text-align: left;
+    padding-bottom: 1vh;
+}
+.box li{
+    list-style: none;
+    
+}
+.box a{
+    font-size: 85%;
+    color: rgb(99, 99, 100);
+}
+.box a:hover{
+    text-decoration: underline;
+}
+div.boxinfo{
+    width: 90%;
+    margin:0vh 10vh 0vh 10vh; 
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+    border-bottom: 0.05vh solid rgb(167, 167, 167);
+}
+div.copy{
+    width: 90%;
+    margin:0vh 10vh 0vh 10vh; 
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+    padding-bottom: 3vh;
+}
