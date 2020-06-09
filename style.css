@@ -1,0 +1,629 @@
+*{
+    margin: 0%;
+    padding: 0%; }
+
+body{width: 100%;
+    min-width: 1330px;
+
+}
+.header{
+    width: 100%;
+    display: inline-flex;
+    height: 8vh;
+    background-color: gray;
+    align-items: center;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    top: 0%;
+    left: 0%;
+    z-index: 300;
+}
+.logo{
+    width: 9%; 
+    height: 8vh; 
+}
+.logo img{
+    width: 75%;
+    height: 95%;
+    margin-top: 0%;
+}
+.links{
+    width: 70%;
+
+}
+.links ul{
+    width: 100%;
+    display: inline-flex;
+    list-style: none;
+    justify-content: space-evenly;
+
+
+
+    list-style: none;
+    align-items: center;
+
+}
+
+.links li a{
+    text-decoration: none;
+}
+.search{
+    width: 20%;
+    display: inline-flex;
+    padding: 1vh;
+    align-items: center;
+    justify-content: space-around;  
+    border-radius: 20px;
+    background-color: #fe6600;
+    top: 0%;
+}
+.search input{
+    width: 80%;
+    outline: none;
+    background-color: #fe6600;
+    border-style: none;      
+}
+.search img{
+    width: 13%;
+    height: 13%;
+}
+.search input:focus, .search input::placeholder{
+    color: white;
+    border-style: none;
+}
+a.linkum, a{
+    text-decoration: none;
+    color:rgb(248, 104, 1);
+    color:rgb(252, 127, 38);
+    padding-bottom: 2vh;                
+}
+a.linkum:hover{
+    color: rgb(84, 103, 113);
+    border-bottom:2px solid rgb(84, 103, 113);
+}
+a:hover{
+    color: rgb(84, 103, 113);
+}
+div.info{
+    padding-top: 8vh;
+}
+.info p{
+    font-size: 95%;
+    margin: 1vh;
+    text-align: center;
+}
+.tela{
+    width: 100%;
+    display:block;
+}
+.tela img{
+    height: 89vh;          
+    width: 100%;
+}
+/* ------------------------------------ */
+
+#yodasabre{
+    position: absolute;
+    left: 480px;
+    width: 270px;
+    margin-top: -160px;
+    transform: rotate(50deg);
+}
+#nave{
+    display: inline-flex;
+    z-index: 1;
+    position: relative;
+    float: right;
+    margin-left: 1100px;
+    margin-top: -5vh;
+    width: 10vh;
+    height: 10vh;
+}
+#bb8{
+    z-index: 10;
+    position: absolute;
+    left: 2.5em;
+    margin-top: -14vh;
+
+    width: 15vh;
+    display: block;
+    height: auto;
+}
+#r2d2{
+    z-index: 10;
+    float: left;
+    transform: rotate(30deg);
+    margin-top: -7%;
+    margin-left: 7%;
+    position: absolute;
+    width: 20vh;
+    height: auto;
+}
+.pgdois{
+    width: 100%;
+    display: block;
+    padding-top: 10vh;
+}
+div.intdois{
+    width: 100%;
+    display: block;
+}
+div.titint{
+    padding-bottom: 3vh;
+    width: 100%;
+}
+.titint p{
+    margin-left: 10vh;
+    border-bottom:0.3vh solid #fe6600;
+    display: inline-flex;
+    font-size: 150%;
+    font-weight:600;
+}
+div.imgs{
+    padding-top: 10vh;
+    margin-left: 15vh;
+    align-items: center;
+    display: inline-flex;
+}
+div.video{
+    width: 45%;
+}
+.video video{
+    width: 100%;
+    position: relative;
+    z-index: 20;
+}
+div.notas{
+    width:45% ;
+    z-index: 20;
+    position: relative;
+    height: 150%;
+}
+.notas p{
+    margin-left: 20vh;  
+    font-size: 120%;
+    font-weight: bold;
+    line-height: 4vh;
+    text-align: left;
+    color: #fe6600;
+}
+div.blockquote{
+    width: 100%;
+    text-align: left;
+}
+.blockquote blockquote{
+    margin: 6vh 15vh;   
+    color: #fe6600;
+    font-size: 200%;
+}
+#alan{
+    float: right;
+    padding-bottom: 1vh;
+}
+/* ----------------------------------------- */
+div.valores{
+    width: 100%;
+    display: inline-block;
+    background-color: green;
+    color: white;
+    /* padding-bottom: 16vh; */
+    border-top: 0.7vh solid #fe6600;
+    border-bottom: 0.7vh solid #fe6600;
+    background-image: url(space2.jpg);
+}
+div.paramargensvalores{
+    margin: 10vh 0vh 10vh 0vh;
+}
+div.titvalores{
+    display: inline-flex;
+    margin-left:  10vh;
+}
+div.titvalores p{
+    margin-bottom: 3vh;
+    display: inline-flex;
+    font-weight: 600;
+    border-bottom: 0.3vh solid #fe6600;             
+    font-size: 150%;
+    font-weight:600;
+}
+div.textcima, div.textbaixo{
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    padding-bottom: 3vh;
+
+}
+div.textcima p, div.textbaixo p{
+    padding: 5vh;
+    line-height: 135%;
+    color: white;
+    position: static;
+    font-size: 100%;
+    z-index: 2;
+    width: 18%;
+    text-align: left;
+    align-content: left;
+} 
+
+div.textcima p::first-line, div.textbaixo p::first-line{
+    text-align: left;
+    font-weight: bold;
+    line-height: 10vh;
+}
+/* ----------------------------------- */
+.pgtres{
+    width: 100%;
+    border-bottom: 0.7vh solid #fe6600;
+    display: block;
+  
+}    
+.pgtres h1{
+    position: relative;
+    z-index: 20;
+    color: #fe6600;
+}
+div.tittres{
+    display: inline-flex;
+    width: 100%;
+    font-size: 150%;
+    font-weight:600;
+
+    background-image: url(tl1.png);
+    background-position: 16vh 21vh;
+    background-size: 80% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}     
+.tittres p{
+    border-bottom: 0.3vh solid #fe6600;
+    margin:10vh 10vh 3vh 10vh ;  
+}
+div.sertop, div.sermeio, div.serbaixo{
+    display: inline-flex;
+    justify-content: space-evenly;
+    padding-bottom: 5vh;
+    margin-left: 10vh;
+
+}
+div.dessites, .projmec{  
+    width: 40%;
+    padding-bottom: 5vh;
+
+}  
+.dessites h1, .projmec h1{
+    display: block;
+    font-size: 120%;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 3vh;
+}
+.dessites img, .projmec img{
+    position: relative;
+    z-index: 20;
+    float: left;
+    width: 16%;
+}
+.dessites p, .projmec p{
+    line-height: 135%;
+    position: relative;
+    z-index: 20;
+    display: inline-flex;
+    width: 60%;
+    text-align: left;
+    margin-left: 10%;
+    color: #fe6600;
+}
+/* div.alinhar{
+    align-items: center;} */
+/* ----------------------------------- */
+.pgquatro{
+    width: 100%;
+    display: inline-block;
+    background-image: url(space2.jpg);
+}
+.colocarmargenstime{
+    margin: 10vh 10vh;
+}
+div.titquatro {
+    padding-bottom: 6vh;
+    display: inline-flex;
+}
+div.titquatro p{
+    border-bottom:0.3vh solid #fe6600;
+    color: #ffffff;
+    width: 100%;
+    font-size: 150%;
+    font-weight:600;
+    
+    
+}
+div.teams{
+    width: 100%;
+    display: inline-block;
+}
+div.teamcima, div.teammeio, div.teambaixo{
+    position: relative;
+    z-index: 20;
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.cima1, .cima2, .cima3, .cima4{
+    width: 20%;
+    display: inline-block;
+}
+div.foto{
+    width: 100%;
+}
+
+div.foto a{
+    position: relative;
+    z-index: 20;
+    text-indent: -9999px;
+    width: 30vh;
+    height: 30vh;
+    background-size:100% 100%;
+    display: inline-block;
+    border-radius: 50%;
+}
+.teamcima .cima1 .foto a{
+    background-image: url(renata.jpg);
+  }
+  .teamcima .cima1 .foto a:hover{
+    background-image: url(babyyoda.jpg);
+  }
+  .teamcima .cima2 .foto a{
+    background-image: url(gabrielrezende-VP.jpg);}
+    .teamcima .cima2 .foto a:hover{
+    background-image: url(luke2.png);}
+  .teamcima .cima3 .foto a{
+    background-image: url(danielmoreiradiretorcomercial.jpg);
+  }
+  .teamcima .cima3 .foto a:hover{
+    background-image: url(obiwan.png);
+  }
+  .teamcima .cima4 .foto a{
+    background-image: url(samilycorreadiretoradeprojetosengmecanica.jpg);
+  }
+  .teamcima .cima4 .foto a:hover{
+    background-image: url(rey.png);}
+
+
+  
+.teammeio .cima1 .foto a{
+    background-image: url(ursulavelilagermarketing.jpg);
+    }
+.teammeio .cima1 .foto a:hover{
+    background-image: url(padme.png);}
+  
+.teammeio .cima2 .foto a{
+    background-image: url(khaleblisboagerfinanceiro.jpg);}    
+.teammeio .cima2 .foto a:hover{
+    background-image: url(kylo.png);}
+
+.teammeio .cima3 .foto a{
+    background-image: url(alejandraninagercomercial.jpg);
+    }
+.teammeio .cima3 .foto a:hover{
+    background-image: url(rosetico.png);
+    }
+.teammeio .cima4 .foto a{
+    background-image: url(mayra.jpg);
+    } 
+.teammeio .cima4 .foto a:hover{
+    background-image: url(ahsokatano.png);
+    } 
+.teambaixo .cima1 .foto a{
+    background-image: url(lucas.jpg);
+    }
+.teambaixo .cima1 .foto a:hover{
+    background-image: url(hansolo.png);
+    }
+.teambaixo .cima2 .foto a{
+    background-image: url(nome1.jpg);}  
+.teambaixo .cima2 .foto a:hover{
+    background-image: url(trooper.png);}    
+.teambaixo .cima3 .foto a{
+    background-image: url(nome2.jpg);
+    }
+.teambaixo .cima3 .foto a:hover{
+    background-image: url(darth.png);
+    }
+.teambaixo .cima4 .foto a{
+    background-image: url(evoneytavaresconsultor.jpg);} 
+.teambaixo .cima4 .foto a:hover{
+    background-image: url(c3po.png);}
+
+div.legenda{
+    z-index: 20;
+    position: relative;
+    width: 100%;
+    display: inline-flex;
+    margin: 2vh 0vh 5vh 1vh;                   }
+    
+div.legenda p{
+    color: rgb(248, 104, 1);
+    width: 75%;
+    text-align: center;}
+    
+div.legenda a{
+    width: 25%;
+    text-align: left;
+    }
+
+/* ------------------------------ */
+
+.pgseis{
+    border-top: 0.7vh solid #fe6600;
+    width: 100%;
+    display: block;
+    padding-bottom: 10vh;
+}
+.titseis{
+    width: 100%;
+    display: inline-flex;
+
+    
+}
+.titseis p{
+    line-height: 135%;
+    margin: 10vh 5vh 6vh 10vh;
+    font-size: 150%;
+    font-weight:600;
+    border-bottom: 0.3vh solid #fe6600;
+}
+div.caixas{
+    width: 90%;
+    margin: 0.62vh 10vh;
+    display:block;
+}
+div.caixascima, div.caixasbaixo{
+    height: 35vh;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+div.caixa1, div.caixa2{
+    background-color: #ffdcc4;
+    padding: 2.5vh;
+    margin-bottom: 3vh;
+    width: 40%;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+.imgproj{
+
+    width: 40%;
+}
+.imgproj img{
+    width: 100%;
+    height: 100%;
+
+}
+.textosproj{
+    width: 45%;
+}
+.textosproj p::first-line{
+    text-align: center;
+    font-size: 120%;
+    font-weight: bolder;
+}
+.textosproj p{
+    line-height: 135%;
+    text-align: left;
+    font-size: 100%;
+}
+.textosproj a{
+    float: right;
+}
+div.sabermais{
+    margin: 2.5vh 0vh;
+    display: inline-flex;
+    padding: 0.5vh 1vh;
+    border: 0.3vh solid #fe6600;
+    background-color: #fe6600;
+    border-radius: 10vh;
+    float: right;
+}
+.sabermais a{
+    padding-bottom: 0vh;
+    color: white;
+}
+.sabermais a:hover{
+    color: black;
+}
+/* --------------------------------- */
+.pgcinco{
+    width: 100%;
+    display: block;
+    border-top: 0.7vh solid #fe6600;
+    border-bottom: 0.7vh solid #fe6600;
+}
+.titcinco{
+    display: inline-flex;
+}
+.titcinco p{
+    border-bottom: 0.3vh solid #fe6600;
+    margin: 10vh 5vh 6vh 10vh;
+    font-size: 150%;
+    font-weight:600;
+}
+.titcinco .facebook{
+    padding: 10vh 10vh 6vh 0vh;
+}
+.facebook a{
+    margin-right: 1vh;
+}
+.corcinza{
+    background-color:rgb(245, 245, 247); 
+    text-align: center;
+}
+div.boxes{
+    width: 70%;
+    border-top: 0.05vh solid rgb(167, 167, 167);
+    border-bottom: 0.05vh none rgb(167, 167, 167);
+    display: inline-flex;
+    margin:0vh 10vh 0vh 10vh; 
+    justify-content: space-evenly;
+}
+div.box{
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    width: 20%;line-height: 5vh;
+    text-align: left;
+}
+.box p{
+    border-style: hidden;
+    font-size: 100%;
+    line-height: 2vh;
+    font-weight: 400;
+    text-align: left;
+    padding-bottom: 1vh;
+}
+.box li{
+    list-style: none;   
+}
+.box a{
+    font-size: 85%;
+    color: rgb(99, 99, 100);
+}
+.box a:hover{
+    text-decoration: underline;
+}
+div.boxinfo{
+    width: 90%;
+    text-align: left;
+    margin:0vh 10vh 0vh 10vh; 
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+    border-bottom: 0.05vh solid rgb(167, 167, 167);
+}
+div.copy{
+    text-align: left;
+    width: 90%;
+    margin:0vh 10vh 0vh 10vh; 
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+    padding-bottom: 3vh;
+}
+
+
+
+/* 
+          
+a.linkum, a{
+
+    text-decoration: none;
+    color:rgb(248, 104, 1);
+    color:rgb(252, 127, 38);
+    padding-bottom: 2vh;                
+}
+a.linkum:hover{
+    color: rgb(84, 103, 113);
+    border-bottom:2px solid rgb(84, 103, 113);
+}
+a:hover{
+    color: rgb(84, 103, 113);
+} */
+
+ 
