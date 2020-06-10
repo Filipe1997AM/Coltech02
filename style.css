@@ -205,7 +205,6 @@ div.blockquote{
 div.valores{
     width: 100%;
     display: inline-block;
-    background-color: green;
     color: white;
     /* padding-bottom: 16vh; */
     border-top: 0.7vh solid #fe6600;
