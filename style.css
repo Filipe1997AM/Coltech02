@@ -404,7 +404,7 @@ div.caixas{
     display:block;
 }
 div.caixascima, div.caixasbaixo{
-    height: 35vh;
+ 
     width: 100%;
     display: inline-flex;
     justify-content: space-evenly;
