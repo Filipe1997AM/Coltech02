@@ -267,8 +267,9 @@ div.tittres{
     background-attachment: fixed;
 }     
 .tittres p{
+    display: block;
     border-bottom: 0.3vh solid #fe6600;
-    padding:10vh 10vh 3vh 10vh ;  
+    margin:10vh 10vh 3vh 10vh ;  
 }
 div.sertop, div.sermeio, div.serbaixo{
     display: inline-flex;
