@@ -359,8 +359,8 @@ div.foto{
  div.foto img{
     position: relative;
     z-index: 20;
-    width: 30vh;
-    height: 30vh;
+    width: 100%;
+    height: 100%;
     background-size:100% 100%;
     display: inline-block;
     border-radius: 50%;
