@@ -111,11 +111,10 @@ div.info{
 #nave{
     display: inline-flex;
     z-index: 1;
-    position: absolute;
-
+    position: relative;
     float: right;
     margin-top: -5vh;
-    margin-left: 3%;
+    margin-right: 7%;
     width: 10vh;
     height: 10vh;
 }
